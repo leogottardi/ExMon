@@ -1,7 +1,7 @@
 defmodule ExMon.Game.Actions.Heal do
   alias ExMon.Game
   alias ExMon.Game.Status
-  
+
   @heal_power 18..25
 
   def heal_life(player) do
